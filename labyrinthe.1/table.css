@@ -1,0 +1,46 @@
+
+table.board {
+    border: none;
+    margin: 20px;
+    border-spacing: 0;
+}
+
+.square {
+  width: 32px;
+  height: 32px;
+  border: solid 2px black;
+  margin: 0;
+  padding: 0;
+  color: #00ff00;
+}
+
+.white {
+  color: #000000;
+}
+
+.red {
+  color: #ff0000;
+}
+
+.green {
+  color: #00ff00;
+}
+
+.blue {
+  color: #0000ff;
+}
+
+.image1 {
+  background:
+    url(data:image/gif;base64,R0lGODlhEAAQAMQAAORHHOVSKudfOulrSOp3WOyDZu6QdvCchPGolfO0o/XBs/fNwfjZ0frl3/zy7////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAkAABAALAAAAAAQABAAAAVVICSOZGlCQAosJ6mu7fiyZeKqNKToQGDsM8hBADgUXoGAiqhSvp5QAnQKGIgUhwFUYLCVDFCrKUE1lBavAViFIDlTImbKC5Gm2hB0SlBCBMQiB0UjIQA7)
+    no-repeat
+    left center;
+}
+
+.image2 {
+  background:
+    url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd+UAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAOxAAADsQBlSsOGwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAGCSURBVEiJ7ZQ9SwNBEEDfbpAkaKciGhTFSBSiJqIW+iPSiYhYCPbi7xLBYCkKiR+IHyEYizRGJDGmiJWKWNxYeCenMXd6sbC4BwO3MLtvZ5hb8PH57ygPe/qAQfP7Grj/s9vY0MAKkAfkS+SAZbxd/ls6gB1LoKIxCaQWJJBaEBWN2cVpoL1VmbJkKjoqwXRWwjX5FMHtjKjhmF3aUqVLgKiRMQkVHxpkVoSKdbt0sRXhISDBrb2mso9KN3ctYdbpQKfyg8Cz6unVoXwFlEunRHiZjCC1qgGEgdfv0rTDEV2AVpEBdxmAUqi+fuvM7mZpTsI6IFKrustM5P4O3tta9yJ8Ac6lcotxceIqM06PkGoZ4NTc64k1QPTElIRvnpoPTelR9HjSGppVrzKAAJABRCdnJZS9apzOTEF0YtqS7ePctR/9pJ3ANjCP1uiZOXQ8AYBxmcM4OwbDADgAUsCD5/JstAEbQJnGt7QMrJs5rvz2GVJAHBgy1yWgYIp9fHy88QbuxtMGtFuiSAAAAABJRU5ErkJggg==')
+    no-repeat
+    left center;
+}
+ 
