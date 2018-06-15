@@ -1,20 +1,23 @@
 <html>
 	<head>
 	</head>
-<span onclick= "nom()">Cilck pour donner ton pseudo</span>
 	<body>
+		<span onclick= "nom()">Click pour donner ton pseudo</span>
 		<br>
 		------Les jeuxs------<br>
 		<a href="miminousvictory.1">  -Miminous Victory</a><br>
 		<a href="labyrinthe.1">  -Labyrinthe</a>
 		<br><br><br>
 		Voila<br>
-	</body>
+		<div id="pseudo"></div>
 <script>
-function nom (){
-	var q = prompt("Ton pseudo")
-	document.show("Ton pseudo" + q)
+function nom () {
+	var q = prompt("Ton pseudo");
+	var zone = document.getElementById("pseudo");
+	zone.innerHTML = "Ton pseudo <b>" + q + "</b>";
+	//document.show("Ton pseudo" + q)
 }
 
 </script>
+	</body>
 </html>
