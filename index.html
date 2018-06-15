@@ -1,12 +1,17 @@
 <html>
 	<head>
+		<style>
+h1   {text-align: center; width: 100%;}
+h2   {text-align: center; width: 100%;}
+h3   {text-align: right; width: 100%;}
+</style>
 	</head>
 	<body>
 		<span onclick= "nom()">Click pour donner ton pseudo</span>
 		<br>
-		------Les jeuxs------<br>
-		<a href="miminousvictory.1">  -Miminous Victory</a><br>
-		<a href="labyrinthe.1">  -Labyrinthe</a>
+		<h1>------Les jeux------</h1><br><br>
+		<a href="miminousvictory.1"> <h2>-Miminous Victory</h2></a><br>
+		<a href="labyrinthe.1">  <h2> -Labyrinthe</h2></a>
 		<br><br><br>
 		Voila<br>
 		<div id="pseudo"></div>
@@ -14,7 +19,7 @@
 function nom () {
 	var q = prompt("Ton pseudo");
 	var zone = document.getElementById("pseudo");
-	zone.innerHTML = "Ton pseudo <b>" + q + "</b>";
+	zone.innerHTML = "<h3>Ton pseudo: <b>" + q + "</b></h3>";
 	//document.show("Ton pseudo" + q)
 }
 
